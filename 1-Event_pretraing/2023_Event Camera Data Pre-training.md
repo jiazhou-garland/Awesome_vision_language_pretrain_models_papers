@@ -18,8 +18,8 @@ Event camera data pretraining using paired event data and RGB images for trainin
 3. extract event features and then project event features to latent embedding;
 4. designe loss from event discrimination and event and natural RGB image discrimination to train the model.
 ## Experiments
-1.N-ImageNet and ImageNet-1K datasets for pre-training
+1. N-ImageNet and ImageNet-1K datasets for pre-training.
 2. explore three backbones, i. e., ViT-S/16, ViT-B/16, and ResNet50 and compared with three group of methods: (a) Training from scratch; (b)Transfer learning of supervised pre-training methods; (c)Transfer learning of selfsupervised pre-training methods.
 3. transfer learning to object recognition, optical flow estimation and semantic segmentation.
 ## Weaknesses
-paired RGB and event data are requried for pre-training(N-ImageNet + ImageNet-1K)
+Paired RGB and event data are requried for pre-training(N-ImageNet + ImageNet-1K)
