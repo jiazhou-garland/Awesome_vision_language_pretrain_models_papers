@@ -1,4 +1,4 @@
-# Masked Event Modeling: Self-Supervised Pretraining for Event Cameras
+# 2022_Masked Event Modeling: Self-Supervised Pretraining for Event Cameras
 
 ## Research Questions
 ## Motivations
