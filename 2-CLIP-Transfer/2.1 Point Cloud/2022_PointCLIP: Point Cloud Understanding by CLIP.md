@@ -20,3 +20,4 @@ Zero-shot Classification
 Few-shot Classification
 Multi-knowledge Ensemble
 ## Weaknesses
+poor zero-shot performance 
