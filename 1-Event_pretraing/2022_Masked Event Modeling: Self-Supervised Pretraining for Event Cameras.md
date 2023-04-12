@@ -13,7 +13,8 @@ Reduce the dependency on labeled event data
 1. The raw event data is preprocessed to an event histogram, and 50% of the patches are masked and replaced by a learnable mask embedding.
 2. a discrete variational autoencoder (dVAE) was employed to predict visual tokens which summarize high-level semantic information in a single vector per patch.
 3. transferring the weights of the pretrained network to initialize the ViT. Only the final MEM layer is replaced by a task-specific layer. The dVAE is no longer
-used. Requires labeled data when finetuning on a specific task.
+used. 
+4. finetuning on a specific task(Requires labeled data).
 ## Experiments
 1. compare each dataset to multiple baselines from the literature and multiple of our baselines.
 2. compare MEM to training the same model with random weight initialization (ViT-from-scratch).
